@@ -1,0 +1,8 @@
+*.md
+
+*.json
+
+css/*.min.css
+js/*.min.js
+
+LICENSE

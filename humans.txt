@@ -1,0 +1,12 @@
+/* MYSELF */
+Coder: Vanza Setia
+Contact: venusbumi2 [at] gmail.com
+Twitter: @vanzasetia
+GitHub: https://github.com/vanzasetia
+From: Bandar Lampung, Lampung, Indonesia
+
+/* SITE */
+Last update: 2022/09/19
+Language: English
+Doctype: HTML5
+IDE: Visual Studio Code, Windows Terminal, PowerShell

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pixelandrem.netlify.app/sitemap.xml

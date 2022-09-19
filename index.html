@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Pixel and REM Converter</title>
+    <script>
+      document.querySelector("html").removeAttribute("class");
+    </script>
+    <link rel="stylesheet" href="/css/style.min.css" />
+    <script src="/js/app.min.js" defer></script>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Convert pixel values to rem values. Convert rem values to pixel values. No tracking. No ads."
+    />
+    <meta name="url" content="https://pixelandrem.netlify.app/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pixel and REM Converter" />
+    <meta property="og:site_name" content="Pixel and REM Converter" />
+    <meta
+      property="og:description"
+      content="Convert pixel values to rem values. Convert rem values to pixel values. No tracking. No ads."
+    />
+    <meta property="og:url" content="https://pixelandrem.netlify.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@vanzasetia" />
+    <meta name="twitter:creator" content="@vanzasetia" />
+    <meta name="google" content="nositelinkssearchbox" />
+    <meta name="google" content="notranslate" />
+    <link rel="canonical" href="https://pixelandrem.netlify.app/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="author" href="https://pixelandrem.netlify.app/humans.txt" />
+  </head>
+  <body dir="ltr">
+    <noscript>
+      <p>Please enable JavaScript on your browser.</p>
+    </noscript>
+    <main id="main" class="flow">
+      <h1>Easily Convert Pixel Value to REM Value</h1>
+      <div>
+        <label>
+          <span>Pixel Value</span>
+          <input type="number" class="js-input-pixel" value="0" />
+        </label>
+        <p class="value"><span class="js-rem-value">0</span> rem</p>
+      </div>
+      <div>
+        <label>
+          <span>REM Value</span>
+          <input type="number" class="js-input-rem" value="0" />
+        </label>
+        <p class="value"><span class="js-pixel-value">0</span> px</p>
+      </div>
+      <article>
+        <h2>Notes:</h2>
+        <ul>
+          <li>
+            <strong>1rem is equal to 16px.</strong> It is best to stick to this
+            formula because it is the default browser's font size.
+          </li>
+          <li>
+            <strong>Never change the HTML font size.</strong> If you do, the
+            user's browser's font size setting will get overwritten.
+          </li>
+        </ul>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "Pixel and REM Converter",
+	"short_name": "Pixel and REM Converter",
+	"description": "Convert pixel values to rem values. Convert rem values to pixel values. No tracking. No ads.",
+	"start_url": "/",
+	"scope": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait"
+}
